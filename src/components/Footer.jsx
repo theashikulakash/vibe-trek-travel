@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h1 className="text-6xl md:text-7xl font-bold text-white">
-            Wanderlust
+            VibeTrek
           </h1>
           <p className="mt-4 max-w-xl">
             Your gateway to extraordinary travel experiences around the world.
@@ -60,7 +60,7 @@ const Footer = () => {
             <h3 className="text-white mb-3 tracking-wide">CONTACT US</h3>
             <ul className="space-y-2">
               <li>786 901 1622</li>
-              <li>info@wandarland.com</li>
+              <li>info@vibetrek.com</li>
             </ul>
           </div>
         </div>

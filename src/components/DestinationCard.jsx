@@ -8,16 +8,16 @@ const DestinationCard = ({ destination }) => {
   const { _id, imageUrl, price, destinationName, duration, country } = destination;
 
   return (
-    <div className="border">
+    <div className="border-none shadow-xl rounded-2xl">
       <Image
-        className=""
+        className="rounded-t-2xl"
         alt={destinationName}
         src={imageUrl}
         height={400}
         width={400}
       />
 
-      <div className="p-2">
+      <div className="p-2 px-4">
         <div className="flex items-center gap-1">
           <LuMapPin /> <span>{country}</span>
         </div>
